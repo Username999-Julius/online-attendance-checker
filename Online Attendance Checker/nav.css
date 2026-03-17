@@ -1,0 +1,23 @@
+nav {
+    background: var(--primary);
+    padding: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+nav a[aria-current="page
